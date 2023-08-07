@@ -1,5 +1,5 @@
 
-import { BsTypeH1 } from 'react-icons/bs';
+
 import './App.css';
 import Home from './component/Home/Home';
 
