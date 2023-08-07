@@ -1,0 +1,156 @@
+.login {
+  display: block;
+  width: 100%;
+}
+.l-logo {
+  position: relative;
+
+  margin-block: 10px;
+  left: 20px;
+}
+
+.l-wrapper {
+  width: 90vw;
+
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_page {
+  width: 500px;
+  height: 670px;
+  border-radius: 40px;
+  padding-top: 1px;
+
+  box-shadow: 2px 2px 30px rgb(69, 69, 109);
+}
+
+.l_page_content {
+  margin-block: 20px;
+}
+
+.welcome {
+  text-align: center;
+  margin-block: 30px 20px;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.btns {
+  margin: auto;
+  text-align: center;
+  width: 400px;
+  border-radius: 25px;
+  background-color: rgb(237, 169, 43);
+}
+
+.btns > button {
+  font-size: 1.1rem;
+  padding: 15px 55px;
+  border-radius: 25px;
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+.btns button:hover {
+  background-color: rgb(42, 42, 151);
+  color: white;
+}
+
+.l-content {
+  padding-inline: 25px;
+  margin-block: 50px;
+}
+
+._form {
+  padding-inline: 25px;
+}
+
+._form input[type="text"],
+input[type="password"] {
+  font-size: 15px;
+}
+
+.input_label {
+  font-weight: 600;
+}
+
+.input_tp {
+  width: 100%;
+  padding: 15px 35px;
+  border-radius: 25px;
+  border: 1px solid rgb(42, 42, 151);
+}
+.name,
+.password,
+.email {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  margin-block: 20px;
+}
+
+.l-subcontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-block: 25px;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ch {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: solid black;
+}
+
+.l-subcontent a {
+  text-decoration: none;
+  color: black;
+}
+
+.l-btn {
+  margin-block: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.l-btn button {
+  padding: 13px 90px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: rgb(59, 59, 105);
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.l-btn span {
+  color: gray;
+  font-size: 1.1rem;
+}
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.l_container {
+  width: 60%;
+}
+
+.slide img {
+  height: 30rem;
+  width: 50rem;
+  margin: 0 auto;
+}

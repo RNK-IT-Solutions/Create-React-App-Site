@@ -1,0 +1,29 @@
+.a2-section {
+  margin: 40px 20px;
+}
+
+.a2-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 350px;
+}
+
+.a2-logo {
+  width: 250px;
+  height: 80px;
+}
+
+.a2-nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.a2-nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
