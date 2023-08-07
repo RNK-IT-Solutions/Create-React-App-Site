@@ -3,7 +3,7 @@ import "./About.css";
 import { useState } from "react";
 import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-import { Navigate, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 
 const data = [
   {
