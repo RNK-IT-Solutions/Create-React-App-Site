@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Toor Dal",
+    "price": "2850",
+    "detail": "Premium Quality Pulses",
+    "image": "../../assets/images/Tooor1.png",
+    "symbole": "₹"
+  },
+  {
+    "name": "Toor Dal",
+    "price": "2850",
+    "detail": "Premium Quality Pulses",
+    "image": "./Tooor2.png",
+    "symbole": "₹"
+  },
+  {
+    "name": "Toor Dal",
+    "price": "2850",
+    "detail": "Premium Quality Pulses",
+    "image": "./Tooor3.png",
+    "symbole": "₹"
+  },
+  {
+    "name": "Toor Dal",
+    "price": "2850",
+    "detail": "Premium Quality Pulses",
+    "image": "./Tooor1.png",
+    "symbole": "₹"
+  }
+]
