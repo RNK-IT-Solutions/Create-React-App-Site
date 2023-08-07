@@ -3,7 +3,7 @@ import "./About.css";
 import { useState } from "react";
 import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-
+import { useNavigate } from "react-router-dom";
 
 const data = [
   {
@@ -69,7 +69,14 @@ const About = () => {
     beforeChange: (current, next) => setImageIndex(next),
   };
 
-  
+  var navigate = useNavigate();
+
+  const product = () => {
+    navigate("/product");
+  };
+  const about = () => {
+    navigate("/mabout");
+  };
 
   return (
     <div className="main-section">
