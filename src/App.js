@@ -1,7 +1,7 @@
 
 
 import './App.css';
-import About from './component/About/About';
+
 
 
 
@@ -11,8 +11,8 @@ function App() {
      
       <div>
         <h1>
-          helo
-          <About/>
+          helowefwerf efvwervrev wsdcwercwerc
+         
         </h1>
       </div>
     </div>
