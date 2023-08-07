@@ -1,7 +1,7 @@
 
 
 import './App.css';
-import Home from './component/Home/Home';
+
 
 function App() {
   return (
@@ -10,7 +10,6 @@ function App() {
       <div>
         <h1>
           helo
-          <Home/>
         </h1>
       </div>
     </div>
