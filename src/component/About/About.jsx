@@ -4,6 +4,7 @@ import { useState } from "react";
 import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
+
 const data = [
   {
     name: "Toor Dal",
@@ -68,13 +69,7 @@ const About = () => {
     beforeChange: (current, next) => setImageIndex(next),
   };
 
-
-  const product = () => {
-    navigate("/product");
-  };
-  const about = () => {
-    navigate("/mabout");
-  };
+  
 
   return (
     <div className="main-section">
