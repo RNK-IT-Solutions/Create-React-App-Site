@@ -48,7 +48,7 @@ const Client = () => {
     );
   };
 
-  const [imageIndex, setImageIndex] = useState(0);
+  const [ setImageIndex] = useState(0);
 
   const settings = {
     autoplay: true,
