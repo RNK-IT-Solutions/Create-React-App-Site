@@ -28,7 +28,7 @@ const data = [
 ];
 
 const Quality = () => {
-  const [imageIndex, setImageIndex] = useState(0);
+  const [setImageIndex] = useState(0);
 
   const NextArrow = ({ onClick }) => {
     return (
