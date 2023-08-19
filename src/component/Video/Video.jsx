@@ -6,7 +6,7 @@ const Video = () => {
   return (
     <section className="s-video">
       <ReactPlayer
-        url={require("../../assets/v4.mp4")}
+        url={require("../../assets/images/")}
         width="100vw"
         height="33rem"
         playing={true}
